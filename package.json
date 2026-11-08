@@ -1,0 +1,27 @@
+{
+  "name": "absensi-jurnalistik",
+  "version": "1.0.0",
+  "description": "Sistem Absensi Jurnalistik berbasis QR Code dengan Node.js, Express, Tailwind CSS, dan MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "absensi",
+    "jurnalistik",
+    "qrcode",
+    "mongodb",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "qrcode": "^1.5.4"
+  }
+}
+
